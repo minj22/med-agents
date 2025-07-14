@@ -1,0 +1,7 @@
+torch
+transformers
+sentence-transformers
+faiss-gpu
+scikit-learn
+requests
+python-dotenv

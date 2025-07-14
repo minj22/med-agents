@@ -1,0 +1,16 @@
+transformers==4.30.2
+datasets
+scikit-learn
+accelerate==0.20.1
+gradio
+openai==1.81.0
+langchain-core
+langchain-upstage
+matplotlib
+langchain
+langchain-community
+dotenv
+pydantic
+langgraph
+faiss-gpu
+typing
