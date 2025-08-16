@@ -8,7 +8,6 @@
 ![medAgent_simulation](https://github.com/user-attachments/assets/6ba88085-95b6-4844-b6ab-e665f8748a44)
 
 ---
-\n
 
 ## 📌 프로젝트 개요
 본 프로젝트는 LLM 기반 Multi-Agent 시스템을 구축하여 실제 진료 흐름을 재현하고 사용자의 증상에 따라 질병을 자동 분류하고 맞춤형 의료 정보를 제공하는 것을 목표로 합니다.  
