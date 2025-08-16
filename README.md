@@ -3,7 +3,7 @@
 **사용자의 질문 및 증상에 맞는 전문 Agent의 응답 처리**
 
 
-## 🎥 시뮬레이션 동영상
+## 🎥 simulation
 
 ![medAgent_simulation](https://github.com/user-attachments/assets/6ba88085-95b6-4844-b6ab-e665f8748a44)
 
