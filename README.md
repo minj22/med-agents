@@ -82,6 +82,32 @@
 - 고정 질병 목록 기반으로만 인식 가능 → 일반화 한계
 
 ---
+## 팀원 소개
+
+<table>
+  <tr align="center">
+    <td><img src="https://github.com/lkj626.png" width="220"/></td>
+    <td><img src="https://github.com/.png" width="220"/></td>
+    <td><img src="https://github.com/minj22.png" width="220"/></td>
+    <td><img src="https://github.com/limjihyee.png" width="220"/></td>
+    <td><img src="https://github.com/Chaemin78.png" width="220"/></td>
+  </tr>
+  <tr align="center">
+    <td><a href="https://github.com/lkj626">이강진</a></td>
+    <td><a href="https://github.com/">정환길</a></td>
+    <td><a href="https://github.com/minj22">양민지</a></td>
+    <td><a href="https://github.com/limjihyee">임지혜</a></td>
+    <td><a href="https://github.com/Chaemin78">임채민</a></td>
+  </tr>
+  <tr align="center">
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+    <td>.</td>
+  </tr>
+</table>
+---
 
 ## 설치 및 실행
 ```bash
