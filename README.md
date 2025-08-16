@@ -1,4 +1,4 @@
-# 실제 진료 흐름을 모사한 LLM 기반 Multi-Agent
+# 🏥 실제 진료 흐름을 모사한 LLM 기반 Multi-Agent
 
 **사용자의 질문 및 증상에 맞는 전문 Agent의 응답 처리**
 
@@ -6,11 +6,11 @@
 
 ## 📌 프로젝트 개요
 본 프로젝트는 LLM 기반 Multi-Agent 시스템을 구축하여 실제 진료 흐름을 재현하고 사용자의 증상에 따라 질병을 자동 분류하고 맞춤형 의료 정보를 제공하는 것을 목표로 합니다.  
-단일 LLM 또는 RAG 시스템으로는 설명,치료,처방,진단 등 다양한 의료 목적을 동시에 충족시키기 어려운 한계를 해결하기 위해 역할별 Agent를 분리한 구조를 설계했습니다.
+단일 LLM 또는 RAG 시스템으로는 설명,치료,처방,진단 등 다양한 의료 목적을 동시에 충족시키기 어려운 한계를 해결하기 위해 기능별 Agent를 Multi-Agent 구조로 분리하여 설계했습니다.
 
 ---
 
-## 목표
+## 💡 목표
 - **단계별 맞춤형 의료 상담 자동화**
 - **증상 기반 질병명 자동 분류**
 - **동일 RAG DB 기반의 질의응답 생성**
@@ -38,7 +38,8 @@
 
 ## 데이터 전처리 및 증강
 1. **필터링**  
-   - 희귀하거나 데이터 수가 적은 질병 제거  
+   - 모델 학습에 필요한 핵심 필드(question, disease...) 추출
+   - 희귀하거나 데이터 수가 적은 질병 제거 
 2. **증강**  
    - Qwen3-30B-a3b 모델 기반 의료 지식을 활용해 응답 데이터 생성
 3. **벡터화 및 Chunking**  
@@ -57,6 +58,7 @@
 ---
 
 ## 모델 아키텍처
+<img width="777" height="747" alt="image" src="https://github.com/user-attachments/assets/51309d39-4396-467b-bff1-29c3ebb859e3" />
 ### Stage 1: 질병 예측
 - BERT 기반 분류기로 사용자 질의에서 **확률 상위 3개 질병** 예측
 
@@ -71,7 +73,7 @@
 
 ## 기대효과
 - 의료 정보 접근성 향상
-- 질병 예측 → 정보 검색 → 진단 응답까지 일관된 흐름 제공
+- 질병 예측 → 정보 검색 → 진단 응답 생성까지 일관된 흐름 제공
 - 역할별 Agent로 응답 정확도 향상
 
 ---
@@ -82,7 +84,7 @@
 - 고정 질병 목록 기반으로만 인식 가능 → 일반화 한계
 
 ---
-## 팀원 소개
+## 💁 팀원 소개
 
 <table>
   <tr align="center">
@@ -108,18 +110,32 @@
   </tr>
 </table>
 ---
+## 🎥 시뮬레이션 동영상
+![medAgent_simulation](https://github.com/user-attachments/assets/6ba88085-95b6-4844-b6ab-e665f8748a44)
 
-## 설치 및 실행
+#### 질병 분류 모델 및 최종 질병 시뮬레이션
+<img width="839" height="465" alt="image" src="https://github.com/user-attachments/assets/197cc8bf-7a4a-4a1b-aee1-c50fb80ecf3f" />
+
+---
+## ⚙️ 환경 세팅 & 실행 방법
+
+### 1. 저장소 클론
 ```bash
-# 1. 저장소 클론
 git clone https://github.com/minj22/med-agents.git
 cd med-agents
+```
 
-# 2. 패키지 설치
+### 2. 패키지 설치
+```bash
 pip install -r requirements.txt
+```
 
-# 3. RAG DB 구축
+### 3. RAG DB 구축
+```bash
 python build_db.py
+```
 
-# 4. 서비스 실행
+### 4. 서비스 실행
+```bash
 python app.py
+```
