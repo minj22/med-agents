@@ -5,7 +5,7 @@
 ---
 
 ## 📌 프로젝트 개요
-본 프로젝트는 **LLM 기반 Multi-Agent 시스템**을 구축하여 실제 진료 흐름을 재현하고 사용자의 증상에 따라 질병을 자동 분류하고 맞춤형 의료 정보를 제공하는 것을 목표로 합니다.  
+본 프로젝트는 LLM 기반 Multi-Agent 시스템을 구축하여 실제 진료 흐름을 재현하고 사용자의 증상에 따라 질병을 자동 분류하고 맞춤형 의료 정보를 제공하는 것을 목표로 합니다.  
 단일 LLM 또는 RAG 시스템으로는 설명,치료,처방,진단 등 다양한 의료 목적을 동시에 충족시키기 어려운 한계를 해결하기 위해 역할별 Agent를 분리한 구조를 설계했습니다.
 
 ---
@@ -19,9 +19,9 @@
 ---
 
 ## 차별점
-- 단일 LLM이 아닌 **역할 분리형 Multi-Agent** 구조 설계
-- **Agentic RAG**를 활용해 LLM의 의사결정 능력과 도구 활용 결합
-- **한국어 의료 데이터 최적화**를 위해 SOLAR 임베딩 모델 사용
+- 단일 LLM이 아닌 역할 분리형 Multi-Agent 구조 설계
+- Agentic RAG를 활용해 LLM의 의사결정 능력과 도구 활용 결합
+- 한국어 의료 데이터 최적화를 위해 SOLAR 임베딩 모델 사용
 
 ---
 
@@ -86,8 +86,8 @@
 ## 설치 및 실행
 ```bash
 # 1. 저장소 클론
-git clone https://github.com/minj22/med-agent.git
-cd medical-multiagent
+git clone https://github.com/minj22/med-agents.git
+cd med-agents
 
 # 2. 패키지 설치
 pip install -r requirements.txt
