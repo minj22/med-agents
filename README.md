@@ -112,6 +112,7 @@
 </table>
 ---
 ## 🎥 시뮬레이션 동영상
+
 ![medAgent_simulation](https://github.com/user-attachments/assets/6ba88085-95b6-4844-b6ab-e665f8748a44)
 
 #### 질병 분류 모델 및 최종 질병 시뮬레이션
