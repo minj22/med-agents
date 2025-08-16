@@ -100,11 +100,11 @@
     <td><a href="https://github.com/Chaemin78">임채민</a></td>
   </tr>
   <tr align="center">
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
-    <td>.</td>
+    <td>최종 에이전트 설계</td>
+    <td>PM 및 데이터 증강</td>
+    <td>설명 에이전트 설계</td>
+    <td>질병 에이전트 설계</td>
+    <td>진단 에이전트 설계</td>
   </tr>
 </table>
 ---
