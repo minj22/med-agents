@@ -2,6 +2,10 @@
 
 **사용자의 질문 및 증상에 맞는 전문 Agent의 응답 처리**
 
+## 🎥 시뮬레이션 동영상
+
+![medAgent_simulation](https://github.com/user-attachments/assets/6ba88085-95b6-4844-b6ab-e665f8748a44)
+
 ---
 
 ## 📌 프로젝트 개요
@@ -110,13 +114,6 @@
     <td>진단 에이전트 설계</td>
   </tr>
 </table>
----
-## 🎥 시뮬레이션 동영상
-
-![medAgent_simulation](https://github.com/user-attachments/assets/6ba88085-95b6-4844-b6ab-e665f8748a44)
-
-#### 질병 분류 모델 및 최종 질병 시뮬레이션
-<img width="839" height="465" alt="image" src="https://github.com/user-attachments/assets/197cc8bf-7a4a-4a1b-aee1-c50fb80ecf3f" />
 
 ---
 ## ⚙️ 환경 세팅 & 실행 방법
