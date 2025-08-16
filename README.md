@@ -62,7 +62,7 @@
 ---
 
 ## 모델 아키텍처
-<img width="777" height="747" alt="image" src="https://github.com/user-attachments/assets/51309d39-4396-467b-bff1-29c3ebb859e3" />
+<img width="583" height="560" alt="image" src="https://github.com/user-attachments/assets/51309d39-4396-467b-bff1-29c3ebb859e3" />
 
 ### Stage 1: 질병 예측
 - BERT 기반 분류기로 사용자 질의에서 **확률 상위 3개 질병** 예측
